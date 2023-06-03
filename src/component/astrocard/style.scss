@@ -1,0 +1,203 @@
+.astrocard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: black 2px 2px 20px;
+    border-radius: 10px;
+  }
+
+  .astrocard__img {
+    position: relative;
+    width: 346px;
+    height: 408px;
+    background: black;
+    border-radius: 7.41429px;
+
+    img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      opacity: 0.8;
+      background-color: radial-gradient(
+        69.29% 49.88% at 102.32% 101.97%,
+        rgba(0, 0, 0, 0.7) 12.59%,
+        rgba(0, 0, 0, 0.372048) 45.56%,
+        rgba(0, 0, 0, 0) 100%
+      );
+      border-radius: 7.41429px;
+    }
+
+    .a__exp {
+      position: absolute;
+      width: 77px;
+      height: 11px;
+      left: 19px;
+      top: 19px;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      color: #ffffff;
+      mix-blend-mode: normal;
+      text-shadow: 0px 4.94286px 4.94286px rgba(0, 0, 0, 0.8);
+    }
+
+    .a__online {
+      position: absolute;
+      right: 19px;
+      top: 19px;
+      color: white;
+      height: 29.18px;
+      width: 86px;
+      background: rgba(0, 0, 0, 0.5);
+      border-radius: 6.14286px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+
+      div {
+        height: 10.82px;
+        width: 10.82px;
+        background: #2cdc00;
+        border-radius: 2rem;
+      }
+    }
+
+    .a__info {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 4.94px;
+      position: absolute;
+      left: 10px;
+      top: 190px;
+
+      .a__rate {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 7px;
+        .a__rateStar {
+          font-size: 16px;
+          color: #fdcc0d;
+          mix-blend-mode: normal;
+        }
+
+        span {
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 24px;
+          color: #ffffff;
+          mix-blend-mode: normal;
+          text-shadow: 0px 4.94286px 4.94286px rgba(0, 0, 0, 0.8);
+        }
+      }
+
+      h2 {
+        font-weight: 600;
+        font-size: 22.2429px;
+        line-height: 33px;
+        color: #ffffff;
+        text-shadow: 0px 4.94286px 4.94286px rgba(0, 0, 0, 0.3),
+          0px 4.94286px 4.94286px rgba(0, 0, 0, 0.25);
+      }
+
+      p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #ffffff;
+        mix-blend-mode: normal;
+      }
+
+      .a__Shead {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 1px;
+        color: #ffdbc0;
+        mix-blend-mode: normal;
+      }
+    }
+
+    @media (max-width: 767px) {
+        width: 300px;
+        height: 400px;
+    }
+  }
+
+  .astrocard__live {
+    position: absolute;
+    z-index: 4;
+    background: #833800;
+    padding: 10px;
+    width: 66.73px;
+    height: 66.73px;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    left: 139.64px;
+    top: 375.74px;
+    box-shadow: #fdfdfd 0px 3px 5px;
+
+    @media (max-width: 767px) {
+        left: 118px;
+        top: 362px;
+    }
+  }
+
+  .astrocard__contact {
+    display: flex;
+    gap: 0px;
+    margin-top: -4px;
+    width: 348px;
+    z-index: 3;
+    height: 51.9px;
+
+    .a__chat {
+      width: 50%;
+      background-color: #a95210;
+      border: 2px solid #ffefe3;
+      border-right: 1px solid #ffefe3;
+      border-bottom-left-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 22.26px;
+      color: #fdfdfd;
+
+      p {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 23px;
+      }
+    }
+
+    .a__call {
+      width: 50%;
+      background-color: #a95210;
+      border: 2px solid #ffefe3;
+      border-right: 1px solid #ffefe3;
+      border-bottom-right-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 22.26px;
+      color: #fdfdfd;
+
+      p {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 23px;
+      }
+    }
+
+    @media (max-width: 767px) {
+        width: 302px;
+    }
+  }
+}
