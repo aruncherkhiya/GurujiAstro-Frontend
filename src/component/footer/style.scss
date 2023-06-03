@@ -1,0 +1,134 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 40px;
+  gap: 0px;
+  background-color: #bd5300;
+  min-height: 400px;
+  padding-top: 49px;
+  color: white;
+
+  .footer__description {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+
+    .footer__logoSocials {
+      display: flex;
+      align-items: center;
+      gap: 13.76px;
+
+      img {
+        width: 66.29px;
+        height: 66.25px;
+      }
+
+      h2 {
+        font-weight: 400;
+        font-size: 40.0932px;
+        line-height: 40px;
+        color: white;
+      }
+    }
+
+    p {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 138.5%;
+      margin-top: 21.75px;
+      width: 371px;
+      color: white;
+    }
+
+    .footer__social {
+      display: flex;
+      margin-top: 23.09px;
+      gap: 20px;
+
+      img {
+        height: 26.55px;
+        width: 26.55px;
+        background-color: white;
+        padding: 3px;
+        border-radius: 2rem;
+      }
+    }
+
+    .footer__pay {
+      width: 300px;
+      p {
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 110%;
+        letter-spacing: 0.105em;
+      }
+
+      img {
+        padding: 10px;
+        background-color: #fefefe;
+        border-radius: 8px;
+        margin-right: 17px;
+        margin-top: 16px;
+      }
+    }
+  }
+
+  .footer__middleContainer {
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    gap: 48px;
+    width: 300px;
+    flex-wrap: wrap;
+    height: 500px;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      gap: 17px;
+      // width: 152px;
+
+      h3 {
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 110%;
+      }
+
+      div {
+        display: flex;
+        flex-direction: column;
+        gap: 9px;
+      }
+    }
+  }
+
+  .footer__form {
+    width: 345px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    input {
+      width: 100%;
+      padding: 4px;
+      padding-top: 6px;
+      outline: none;
+      border-radius: 4px;
+    }
+    
+    textarea {
+      padding: 4px;
+      height: 80px;
+      outline: none;
+    }
+
+    .footer__btn {
+      background-color: #4B9C0C;
+      border: none;
+      color: white;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  }
+}
