@@ -1,0 +1,91 @@
+.astroCC {
+  .astro {
+    display: flex;
+    justify-content: center;
+
+    .asto__container {
+      background-color: #ffefe3;
+      padding-top: 43px;
+      // height: 1620px;
+      width: 1224px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .astro__head {
+        .car_head {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 19px;
+
+          span {
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 40.96px;
+            letter-spacing: 0.085em;
+            color: var(--orangisB);
+            text-align: center;
+          }
+
+          @media (max-width: 767px) {
+            gap: 8px;
+
+            img {
+              height: 24px;
+            }
+
+            span {
+              font-size: 20px;
+            }
+          }
+        }
+      }
+
+      .astro__card {
+        display: flex;
+        gap: 37px;
+        margin-top: 56px;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .astro__card1 {
+          display: flex;
+          flex-direction: column;
+          gap: 25.14px;
+        }
+
+        .astro__card2 {
+          margin-top: 44px;
+          display: flex;
+          flex-direction: column;
+          gap: 25.14px;
+        }
+
+        .astro__card3 {
+          display: flex;
+          flex-direction: column;
+          gap: 25.14px;
+        }
+
+        @media (max-width: 1110px) {  
+          justify-content: space-around;
+
+          .astro__card2 {
+            margin-top: 0px;
+          }
+        }
+      }
+    }
+  }
+
+  .astro__bottom {
+    display: flex;
+    justify-content: center;
+
+    img {
+      max-width: 1224px;
+      min-width: 360px;
+    }
+  }
+}
