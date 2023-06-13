@@ -33,7 +33,7 @@ Start the server
  
 
 
-## Authors
+## Author
 
 - [@Arun Kumar](https://github.com/aruncherkhiya/GurujiAstro-Frontend)
 
